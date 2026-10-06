@@ -1,0 +1,91 @@
+{
+    "manufacturer": "Dashkeebs",
+    "keyboard_name": "deLAEvery van",
+    "maintainer": "quark-works",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0x6A6B",
+        "pid": "0x6476",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "dynamic_keymap": {
+        "layer_count": 8
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP2", "pin_b": "GP1" }
+        ]
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "rows": ["GP29", "GP17", "GP16", "GP3", "GP14"],
+        "cols": ["GP19", "GP18", "GP21", "GP15", "GP13", "GP12", "GP11", "GP10", "GP9", "GP8", "GP5", "GP4"]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0.5, "y": 0 },
+                { "matrix": [0, 1], "x": 1.5, "y": 0 },
+                { "matrix": [0, 2], "x": 2.5, "y": 0 },
+                { "matrix": [0, 3], "x": 3.5, "y": 0 },
+                { "matrix": [0, 4], "x": 4.5, "y": 0 },
+                { "matrix": [0, 5], "x": 5.5, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [1, 3], "x": 3, "y": 1 },
+                { "matrix": [1, 4], "x": 4, "y": 1 },
+                { "matrix": [1, 5], "x": 5, "y": 1 },
+                { "matrix": [1, 6], "x": 6, "y": 1 },
+                { "matrix": [1, 7], "x": 7, "y": 1 },
+                { "matrix": [1, 8], "x": 8, "y": 1 },
+                { "matrix": [1, 9], "x": 9, "y": 1 },
+                { "matrix": [1, 10], "x": 10, "y": 1 },
+                { "matrix": [1, 11], "w": 1.75, "x": 11, "y": 1 },
+                { "matrix": [2, 0], "w": 1.25, "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1.25, "y": 2 },
+                { "matrix": [2, 2], "x": 2.25, "y": 2 },
+                { "matrix": [2, 3], "x": 3.25, "y": 2 },
+                { "matrix": [2, 4], "x": 4.25, "y": 2 },
+                { "matrix": [2, 5], "x": 5.25, "y": 2 },
+                { "matrix": [2, 6], "x": 6.25, "y": 2 },
+                { "matrix": [2, 7], "x": 7.25, "y": 2 },
+                { "matrix": [2, 8], "x": 8.25, "y": 2 },
+                { "matrix": [2, 9], "x": 9.25, "y": 2 },
+                { "matrix": [2, 10], "x": 10.25, "y": 2 },
+                { "matrix": [2, 11], "w": 1.5, "x": 11.25, "y": 2 },
+                { "matrix": [3, 0], "w": 1.75, "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1.75, "y": 3 },
+                { "matrix": [3, 2], "x": 2.75, "y": 3 },
+                { "matrix": [3, 3], "x": 3.75, "y": 3 },
+                { "matrix": [3, 4], "x": 4.75, "y": 3 },
+                { "matrix": [3, 5], "x": 5.75, "y": 3 },
+                { "matrix": [3, 6], "x": 6.75, "y": 3 },
+                { "matrix": [3, 7], "x": 7.75, "y": 3 },
+                { "matrix": [3, 8], "x": 8.75, "y": 3 },
+                { "matrix": [3, 9], "x": 9.75, "y": 3 },
+                { "matrix": [3, 10], "x": 10.75, "y": 3 },
+                { "matrix": [3, 11], "x": 11.75, "y": 3 },
+                { "matrix": [4, 0], "w": 1.25, "x": 0, "y": 4 },
+                { "matrix": [4, 1], "x": 1.25, "y": 4 },
+                { "matrix": [4, 2], "w": 1.25, "x": 2.25, "y": 4 },
+                { "matrix": [4, 3], "w": 2.75, "x": 3.5, "y": 4 },
+                { "matrix": [4, 6], "w": 2.25, "x": 6.25, "y": 4 },
+                { "matrix": [4, 8], "w": 1.25, "x": 8.5, "y": 4 },
+                { "matrix": [4, 9], "x": 9.75, "y": 4 },
+                { "matrix": [4, 10], "x": 10.75, "y": 4 },
+                { "matrix": [4, 11], "x": 11.75, "y": 4 }
+            ]
+        }
+    }
+}

@@ -15,9 +15,10 @@
         "console": false,
         "encoder": true,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
         "rgblight": true,
+        "pointing_device": true
     },
     "encoder": {
         "rotary": [
